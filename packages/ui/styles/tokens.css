@@ -1,0 +1,27 @@
+:root {
+  --mm-font-family:
+    Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  --mm-color-bg-base: #020617;
+  --mm-color-bg-surface: #0f172a;
+  --mm-color-bg-surface-alt: #1e293b;
+
+  --mm-color-text-primary: #e2e8f0;
+  --mm-color-text-muted: #94a3b8;
+  --mm-color-text-subtle: #cbd5e1;
+
+  --mm-color-border: rgba(148, 163, 184, 0.3);
+  --mm-color-accent: #a5b4fc;
+  --mm-color-warning: #f59e0b;
+
+  --mm-radius-md: 12px;
+  --mm-radius-lg: 14px;
+  --mm-radius-xl: 16px;
+
+  --mm-space-xs: 4px;
+  --mm-space-sm: 8px;
+  --mm-space-md: 12px;
+  --mm-space-lg: 16px;
+  --mm-space-xl: 20px;
+  --mm-space-xxl: 32px;
+}

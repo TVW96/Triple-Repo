@@ -1,0 +1,14 @@
+{
+  "name": "@mangamagnet/config",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "check": "node -e \"import('./src/index.js').then(() => process.stdout.write('config-ok\\n'))\""
+  }
+}

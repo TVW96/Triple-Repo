@@ -1,0 +1,27 @@
+{
+  "name": "mangamagnet",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w @mangamagnet/web",
+    "dev:admin": "npm run dev -w @mangamagnet/admin",
+    "dev:mobile": "npm run start -w @mangamagnet/mobile",
+    "build:web": "npm run build -w @mangamagnet/web",
+    "build:admin": "npm run build -w @mangamagnet/admin",
+    "build:mobile": "npm run export -w @mangamagnet/mobile",
+    "lint:web": "npm run lint -w @mangamagnet/web",
+    "lint:admin": "npm run lint -w @mangamagnet/admin",
+    "check:shared": "npm run check -w @mangamagnet/config && npm run check -w @mangamagnet/contracts && npm run check -w @mangamagnet/api-client && npm run check -w @mangamagnet/ui",
+    "test:shared": "npm run test -w @mangamagnet/api-client",
+    "test:web": "npm run test -w @mangamagnet/web",
+    "test:mobile": "npm run test -w @mangamagnet/mobile",
+    "test:frontend": "npm run test:web && npm run test:mobile"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

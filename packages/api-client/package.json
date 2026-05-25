@@ -1,0 +1,19 @@
+{
+  "name": "@mangamagnet/api-client",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "@mangamagnet/config": "0.1.0",
+    "@mangamagnet/contracts": "0.1.0"
+  },
+  "scripts": {
+    "check": "node -e \"import('./src/index.js').then(() => process.stdout.write('api-client-ok\\n'))\"",
+    "test": "node --test ./test/*.test.js"
+  }
+}

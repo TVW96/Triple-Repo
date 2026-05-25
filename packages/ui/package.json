@@ -1,0 +1,22 @@
+{
+  "name": "@mangamagnet/ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./native": {
+      "types": "./src/native.d.ts",
+      "default": "./src/native.js"
+    },
+    "./styles/tokens.css": "./styles/tokens.css"
+  },
+  "scripts": {
+    "check": "node -e \"import('./src/index.js').then(() => process.stdout.write('ui-ok\\n'))\""
+  }
+}

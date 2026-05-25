@@ -1,0 +1,9 @@
+node_modules/
+.npm/
+.next/
+out/
+.expo/
+.expo-shared/
+coverage/
+*.log
+.DS_Store
